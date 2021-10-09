@@ -12,3 +12,13 @@ function calculate()
  function clr(){
      document.getElementById("textval").value =""
  }
+ 
+ function  per(){
+    let a= document.getElementById("textval").value
+    let b = a/100
+     document.getElementById("textval").value=b
+ }
+
+ 
+ 
+ 

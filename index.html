@@ -5,27 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyCalc</title>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
    
 </head>
 <body>
     <div>
-        <table>
+        <table border="1">
             <tr>
                 
-              <td colspan="3"><input type="text" id="textval"/></td>
+              <td colspan="4"><input type="text" id="textval"/></td>
                
             </tr>
             <tr>
-                <td>
+                <td colspan="2">
                     <input type="button" value="C" onclick="clr()"/>
                 </td>
+                
                 <td>
-                    <input type="button" value ="+/-" onclick ="display('-')"/>
-        
-                </td>
-                <td>
-                    <input type ="button" value = "%" onclick ="display('%')"/>
+                    <input type ="button" value = "%" onclick ="per()"/>
         
                 </td>
                 <td>
@@ -79,8 +77,9 @@
                 <td>
                     <input type = "button" value ="+" onclick ="display('+')"/>
                 </td>
-            </tr><tr>
-                <td>
+            </tr>
+            <tr>
+                <td colspan="2">
                     <input type="button" value="0" onclick="display('0')"/>
                 </td>
                 <td>
